@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: black;
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+}
+.navbar a{
+   padding: 30px; 
+   font-weight: bold;
+   text-decoration: none;
+}
+.jumbotron{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.jumbotron img{
+    z-index: -3;
+    position: absolute;
+    width: 100%;
+    
+}
+.jumbotron h2{
+    width: 700px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-left: 52vh;
+    font-weight: bold;
+    position: relative;
+
+}
+.jumbotron p{
+    width: 300px;
+    text-align: end;
+    margin-left: 700px;
+}
+.intro{
+    box-shadow: 3px -3px 7px 0px black;
+    margin: 30px 30px 0px 30px;
+    border-radius: 10px;
+}
+.desc{
+    padding: 10px;
+}
+
+.desc img{
+    margin-left: 58vh;
+}
+
+.desc p{
+    text-align: center;
+    position: relative;
+}
+
+.footer{
+    margin: 30px 30px 0px 30px;
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
